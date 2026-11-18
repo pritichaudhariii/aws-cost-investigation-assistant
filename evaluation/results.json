@@ -1,0 +1,320 @@
+{
+  "summary": {
+    "role": "engineer",
+    "retrieval_mode": "driver",
+    "scenarios": 30,
+    "root_cause_accuracy": 1.0,
+    "driver_accuracy": 1.0,
+    "retrieval_hit@1": 1.0,
+    "retrieval_hit@3": 1.0,
+    "mrr": 1.0,
+    "latency_p50_ms": 15.4,
+    "latency_p95_ms": 19.7,
+    "cost_per_query_usd": 0.0,
+    "isolation_violations": 0,
+    "cross_team_requests_blocked": 30,
+    "pii_leaks": 0
+  },
+  "rows": [
+    {
+      "id": "S01",
+      "category": "nat_gateway_data_processing",
+      "predicted": "nat_gateway_data_processing",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 21.2,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S02",
+      "category": "idle_ec2_instances",
+      "predicted": "idle_ec2_instances",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 16.3,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S03",
+      "category": "ebs_snapshot_growth",
+      "predicted": "ebs_snapshot_growth",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 15.3,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S04",
+      "category": "s3_request_spike",
+      "predicted": "s3_request_spike",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 14.8,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S05",
+      "category": "s3_storage_no_lifecycle",
+      "predicted": "s3_storage_no_lifecycle",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 16.8,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S06",
+      "category": "cloudwatch_logs_ingestion",
+      "predicted": "cloudwatch_logs_ingestion",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 14.3,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S07",
+      "category": "lambda_recursive_loop",
+      "predicted": "lambda_recursive_loop",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 14.9,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S08",
+      "category": "rds_overprovisioned",
+      "predicted": "rds_overprovisioned",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 15.6,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S09",
+      "category": "dynamodb_on_demand_spike",
+      "predicted": "dynamodb_on_demand_spike",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 17.0,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S10",
+      "category": "cross_region_transfer",
+      "predicted": "cross_region_transfer",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 14.8,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S11",
+      "category": "nat_gateway_data_processing",
+      "predicted": "nat_gateway_data_processing",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 14.1,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S12",
+      "category": "idle_ec2_instances",
+      "predicted": "idle_ec2_instances",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 15.0,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S13",
+      "category": "ebs_snapshot_growth",
+      "predicted": "ebs_snapshot_growth",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 14.9,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S14",
+      "category": "s3_request_spike",
+      "predicted": "s3_request_spike",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 15.0,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S15",
+      "category": "s3_storage_no_lifecycle",
+      "predicted": "s3_storage_no_lifecycle",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 15.1,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S16",
+      "category": "cloudwatch_logs_ingestion",
+      "predicted": "cloudwatch_logs_ingestion",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 13.6,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S17",
+      "category": "lambda_recursive_loop",
+      "predicted": "lambda_recursive_loop",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 14.0,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S18",
+      "category": "rds_overprovisioned",
+      "predicted": "rds_overprovisioned",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 14.5,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S19",
+      "category": "dynamodb_on_demand_spike",
+      "predicted": "dynamodb_on_demand_spike",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 14.1,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S20",
+      "category": "cross_region_transfer",
+      "predicted": "cross_region_transfer",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 15.1,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S21",
+      "category": "nat_gateway_data_processing",
+      "predicted": "nat_gateway_data_processing",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 17.1,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S22",
+      "category": "idle_ec2_instances",
+      "predicted": "idle_ec2_instances",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 19.8,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S23",
+      "category": "ebs_snapshot_growth",
+      "predicted": "ebs_snapshot_growth",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 19.5,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S24",
+      "category": "s3_request_spike",
+      "predicted": "s3_request_spike",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 16.3,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S25",
+      "category": "s3_storage_no_lifecycle",
+      "predicted": "s3_storage_no_lifecycle",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 17.5,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S26",
+      "category": "cloudwatch_logs_ingestion",
+      "predicted": "cloudwatch_logs_ingestion",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 16.6,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S27",
+      "category": "lambda_recursive_loop",
+      "predicted": "lambda_recursive_loop",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 17.7,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S28",
+      "category": "rds_overprovisioned",
+      "predicted": "rds_overprovisioned",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 17.8,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S29",
+      "category": "dynamodb_on_demand_spike",
+      "predicted": "dynamodb_on_demand_spike",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 17.8,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "S30",
+      "category": "cross_region_transfer",
+      "predicted": "cross_region_transfer",
+      "correct": true,
+      "driver_correct": true,
+      "gold_rank": 1,
+      "latency_ms": 19.4,
+      "cost_usd": 0.0
+    }
+  ]
+}
