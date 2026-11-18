@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "costassist"
+version = "0.1.0"
+description = "Multi-stage RAG assistant for investigating AWS cost anomalies"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Priti Chaudhari" }]
+dependencies = ["pandas>=2.0", "numpy>=1.26", "scikit-learn>=1.3", "requests>=2.31"]
+
+[project.optional-dependencies]
+qdrant = ["qdrant-client>=1.10"]
+semantic = ["sentence-transformers>=2.7"]
+api = ["fastapi>=0.110", "uvicorn[standard]>=0.29"]
+dev = ["pytest>=8", "httpx>=0.27", "ruff>=0.5"]
+
+[project.scripts]
+costassist = "costassist.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["costassist*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 140
+target-version = "py310"
